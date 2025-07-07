@@ -11,7 +11,40 @@
 🔗 [https://huggingface.co/spaces/Fanchon/stream_app](https://huggingface.co/spaces/Fanchon/stream_app)
 
 ---
+Glucy-pred 🍽️💉
+Application intelligente pour prédire la quantité de glucides dans une assiette à partir d’une simple photo.
+Elle s’adresse aux personnes diabétiques souhaitant mieux estimer leurs apports en glucides.
 
+🔍 Contenu du projet
+1. Interface utilisateur en ligne
+Une interface conviviale est disponible via Streamlit sur Hugging Face :
+👉 Tester l'application Glucy-pred
+
+Fonctionnalités :
+
+Upload d’une image contenant une assiette de nourriture.
+
+Détection des aliments présents et estimation de leur poids.
+
+Calcul des glucides estimés par aliment et au total.
+
+2. 🔬 Amélioration de la détection avec le modèle CLIP
+Pour améliorer l'identification des aliments, nous avons intégré le modèle CLIP (Contrastive Language-Image Pretraining) de Google.
+Cela permet une reconnaissance plus fine des aliments lorsque la confiance du modèle YOLO est faible.
+
+3. 🧠 EDA et préparation du dataset FoodSeg103
+Analyse exploratoire des données du dataset FoodSeg103 (103 classes d’aliments segmentés).
+
+Prétraitement des masques et annotations pour entraîner un modèle YOLOv8.
+
+Data augmentation : rotation, duplication et équilibrage pour améliorer la robustesse du modèle.
+
+🛠️ Technologies utilisées
+Python, TensorFlow, YOLOv8, CLIP, OpenCV
+
+Streamlit pour l’interface web
+
+Hugging Face Spaces pour le déploiement# 🥗 Glucy-pred
 ## 📦 Installation locale
 
 1. **Clonez ce dépôt :**
