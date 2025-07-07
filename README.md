@@ -15,6 +15,9 @@ Glucy-pred 🍽️💉
 Application intelligente pour prédire la quantité de glucides dans une assiette à partir d’une simple photo.
 Elle s’adresse aux personnes diabétiques souhaitant mieux estimer leurs apports en glucides.
 
+IMPORTANT :   les models de segmentation sont stockés sur un bucket S3.
+            executer le script une fois avoir cloner le repository
+
 🔍 Contenu du projet
 1. Interface utilisateur en ligne
 Une interface conviviale est disponible via Streamlit sur Hugging Face :
