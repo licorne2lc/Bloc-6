@@ -32,7 +32,7 @@ Calcul des glucides estimés par aliment et au total.
 Pour améliorer l'identification des aliments, nous avons intégré le modèle CLIP (Contrastive Language-Image Pretraining) de Google.
 Cela permet une reconnaissance plus fine des aliments lorsque la confiance du modèle YOLO est faible.
 
-3. 🧠 EDA et préparation du dataset FoodSeg103
+3. 🧠 EDA et préprocessing du dataset FoodSeg103
 Analyse exploratoire des données du dataset FoodSeg103 (103 classes d’aliments segmentés).
 
 Prétraitement des masques et annotations pour entraîner un modèle YOLOv8.
