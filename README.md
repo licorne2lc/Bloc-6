@@ -5,25 +5,25 @@
 
 > **Glucy-pred** est une application d’estimation nutritionnelle qui évalue automatiquement les **glucides** dans une assiette à partir d’une simple photo, grâce à la vision par ordinateur et à une base de données nutritionnelle.
 
-## 🚀 Démo en ligne
+## Démo en ligne
 
 ➡️ Essayez l'application ici :  
 🔗 [https://huggingface.co/spaces/Fanchon/stream_app](https://huggingface.co/spaces/Fanchon/stream_app)
 
 ---
-Glucy-pred 🍽️💉
+Glucy-pred 
 Application intelligente pour prédire la quantité de glucides dans une assiette à partir d’une simple photo.
 Elle s’adresse aux personnes diabétiques souhaitant mieux estimer leurs apports en glucides.
 
 IMPORTANT :   les models de segmentation sont stockés sur un bucket S3.
             executer le script une fois avoir cloner le repository
 
-🔍 Contenu du projet
+# Contenu du projet
 1. Interface utilisateur en ligne
 Une interface conviviale est disponible via Streamlit sur Hugging Face :
 👉 Tester l'application Glucy-pred
 
-Fonctionnalités :
+#Fonctionnalités :
 
 Upload d’une image contenant une assiette de nourriture.
 
@@ -31,18 +31,18 @@ Détection des aliments présents et estimation de leur poids.
 
 Calcul des glucides estimés par aliment et au total.
 
-2. 🔬 Amélioration de la détection avec le modèle CLIP
+2. Amélioration de la détection avec le modèle CLIP
 Pour améliorer l'identification des aliments, nous avons intégré le modèle CLIP (Contrastive Language-Image Pretraining) de Google.
 Cela permet une reconnaissance plus fine des aliments lorsque la confiance du modèle YOLO est faible.
 
-3. 🧠 EDA et préprocessing du dataset FoodSeg103
+3. EDA et préprocessing du dataset FoodSeg103
 Analyse exploratoire des données du dataset FoodSeg103 (103 classes d’aliments segmentés).
 
 Prétraitement des masques et annotations pour entraîner un modèle YOLOv8.
 
 Data augmentation : rotation, duplication et équilibrage pour améliorer la robustesse du modèle.
 
-🛠️ Technologies utilisées
+# Technologies utilisées
 Python, TensorFlow, YOLOv8, CLIP, OpenCV
 
 Streamlit pour l’interface web
@@ -73,7 +73,7 @@ Hugging Face Spaces pour le déploiement# 🥗 Glucy-pred
 
 ---
 
-## 📚 Dépendances utilisées (`requirements.txt`)
+## Dépendances utilisées (`requirements.txt`)
 
 Voici les versions exactes des bibliothèques utilisées :
 
@@ -95,21 +95,21 @@ uvicorn==0.35.0
 
 ---
 
-## 🧠 Description du projet
+## Description du projet
 
 Glucy-pred combine plusieurs briques technologiques pour estimer les glucides par image :
 
-- 🔍 Détection de l’assiette : `YOLOv8`
-- 🧩 Segmentation des aliments : `YOLOv8x-seg`
-- 📊 Calcul de la surface des aliments
-- ⚖️ Estimation du poids à partir de la densité
-- 📚 Association avec la base **Ciqual** (ANSES) enrichie
+-  Détection de l’assiette : `YOLOv8`
+-  Segmentation des aliments : `YOLOv8x-seg`
+-  Calcul de la surface des aliments
+-  Estimation du poids à partir de la densité
+-  Association avec la base **Ciqual** (ANSES) enrichie
 
 > 🧪 Une **amélioration expérimentale** via le modèle **CLIP** est en cours de test dans le notebook `model_clip.ipynb` (non encore intégrée à l'API en ligne).
 
 ---
 
-## 🗂️ Arborescence des fichiers clés
+##  Arborescence des fichiers clés
 
 ```
 glucy-pred/
