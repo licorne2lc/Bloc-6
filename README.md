@@ -106,7 +106,7 @@ Glucy-pred combine plusieurs briques technologiques pour estimer les glucides pa
 -  Association avec la base **Ciqual** (ANSES) enrichie
 
 > 🧪 Une **amélioration expérimentale** via le modèle **CLIP** est en cours de test dans le notebook `model_clip.ipynb` (non encore intégrée à l'API en ligne).
-
+            cette amelioration n'est pas encore implementé dans l'application glucipred
 ---
 
 ##  Arborescence des fichiers clés
@@ -125,7 +125,7 @@ glucy-pred/
 
 ---
 
-## 📓 Notebooks importants
+##  Notebooks 
 
 - [`preprocessing_food_seg_103/preprocessing_food_seg_103.ipynb`](preprocessing_food_seg_103/preprocessing_food_seg_103.ipynb)  
   → Préparation du dataset **FoodSeg103**, EDA, augmentation d’images.
@@ -135,7 +135,7 @@ glucy-pred/
 
 ---
 
-## 📊 Méthodologie de calcul
+## Méthodologie de calcul
 
 1. Détection de l’assiette et segmentation des aliments via YOLOv8.
 2. Calcul de la surface relative des aliments.
@@ -144,29 +144,22 @@ glucy-pred/
 
 ---
 
-## 🔮 Perspectives d'amélioration
+## Perspectives d'amélioration
 
-- 🖼️ Intégrer le modèle CLIP à l'API pour un relabeling plus précis.
-- ⚖️ Améliorer l'estimation du poids (réseau de neurones ou vision 3D).
-- 🗂️ Étendre le dataset avec des images variées annotées.
-- 🍎 Enrichir la base nutritionnelle par web scraping multi-sources.
-
----
-
-## 📽️ Présentation PowerPoint
-
-Une synthèse du projet est disponible dans la présentation PowerPoint :  
-📄 [`bloc6 -.pptx`](./bloc6%20-.pptx)
+-  Intégrer le modèle CLIP à l'API pour un relabeling plus précis.
+-  Améliorer l'estimation du poids (réseau de neurones ou vision 3D).
+-  Étendre le dataset avec des images variées annotées.
+-  Enrichir la base nutritionnelle par web scraping multi-sources.
 
 ---
 
-## 🧑‍💻 Auteurs
 
-Projet réalisé par :
+##  Auteurs jerome moulinier 
 
-- **Jérôme**
-- **Fanchon**
-- **Clément**
-- **Wafa**
+Projet réalisé en collaboration avec :
+
+- **Fanchon Kabré**
+- **Clément Maulard**
+- **Wafa Zeghouane**
 
 Dans le cadre de la certification **RNCP 35288 – Bloc 6 - Concepteur Développeur en Science des Données**.
