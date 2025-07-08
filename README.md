@@ -38,9 +38,9 @@ Cela permet une reconnaissance plus fine des aliments lorsque la confiance du mo
 3. EDA et préprocessing du dataset FoodSeg103
 Analyse exploratoire des données du dataset FoodSeg103 (103 classes d’aliments segmentés).
 
-Prétraitement des masques et annotations pour entraîner un modèle YOLOv8.
+   Prétraitement des masques et annotations pour entraîner un modèle YOLOv8.
 
-Data augmentation : rotation, duplication et équilibrage pour améliorer la robustesse du modèle.
+   Data augmentation : rotation, duplication et équilibrage pour améliorer la robustesse du modèle.
 
 # Technologies utilisées
 Python, TensorFlow, YOLOv8, CLIP, OpenCV
