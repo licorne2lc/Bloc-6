@@ -43,7 +43,7 @@ Analyse exploratoire des données du dataset FoodSeg103 (103 classes d’aliment
    Data augmentation : rotation, duplication et équilibrage pour améliorer la robustesse du modèle.
 
 # Technologies utilisées
-Python, TensorFlow, YOLOv8, CLIP, OpenCV
+Python, TensorFlow, YOLOv8, CLIP, OpenCV, Pytorch
 
 Streamlit pour l’interface web
 
