@@ -148,7 +148,7 @@ glucy-pred/
 
 -  Intégrer le modèle CLIP à l'API pour un relabeling plus précis.
 -  Améliorer l'estimation du poids (réseau de neurones ou vision 3D).
--  Étendre le dataset avec des images variées annotées.
+-  Étendre les datasets avec des images variées annotées.
 -  Enrichir la base nutritionnelle par web scraping multi-sources.
 
 ---
