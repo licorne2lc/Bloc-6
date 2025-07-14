@@ -24,11 +24,11 @@ Une interface conviviale est disponible via Streamlit sur Hugging Face :
 
 #Fonctionnalités :
 
-Upload d’une image contenant une assiette de nourriture.
+1-Import d’une image contenant une assiette de nourriture accompagnée d’une fourchette (référence de taille).
 
-Détection des aliments présents et estimation de leur poids.
+2-Détection des aliments présents sur l’image et estimation de leur poids à partir des surfaces segmentées.
 
-Calcul des glucides estimés par aliment et au total.
+3-Calcul des glucides estimés, aliment par aliment, ainsi que du total glucidique de l’assiette.
 
 2. Amélioration de la détection avec le modèle CLIP
 Pour améliorer l'identification des aliments, nous avons intégré le modèle CLIP (Contrastive Language-Image Pretraining) de Google.
