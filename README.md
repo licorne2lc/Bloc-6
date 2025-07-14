@@ -8,7 +8,9 @@
 > Elle s’adresse principalement aux personnes diabétiques désireuses de mieux maîtriser leur apport en glucides au quotidien, et permet d’ajuster plus facilement la dose d’insuline à injecter.
 
 >L’application repose sur un pipeline de traitement d’image intégrant des techniques de détection et de segmentation des aliments.
+>
 >À partir d’une photo contenant une assiette, les aliments sont identifiés visuellement, leur forme est délimitée précisément.
+>
 >Ces informations sont ensuite croisées avec une base de données nutritionnelle pour estimer leur poids et calculer les glucides correspondants.
 
 
