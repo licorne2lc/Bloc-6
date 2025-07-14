@@ -9,7 +9,7 @@
 
 >L’application repose sur un pipeline de traitement d’image intégrant des techniques de détection et de segmentation des aliments.
 >
->À partir d’une photo contenant une assiette, les aliments sont identifiés visuellement, leur forme est délimitée précisément.
+>À partir d’une photo contenant une assiette et une fourchette, les aliments sont identifiés visuellement, leur forme est délimitée précisément.
 >
 >Ces informations sont ensuite croisées avec une base de données nutritionnelle pour estimer leur poids et calculer les glucides correspondants.
 
