@@ -101,10 +101,10 @@ uvicorn==0.35.0
 
 Glucy-pred combine plusieurs briques technologiques pour estimer les glucides par image :
 
--  Détection de l’assiette : `YOLOv8`
--  Segmentation des aliments : `YOLOv8x-seg`
+-  Détection de l’assiette : multi model `YOLOv8m` + methode d'ensemble par voting (hard)
+-  Segmentation des aliments : model `YOLOv8x-seg` entrainé ave Food seg 103(data augmentation)
 -  Calcul de la surface des aliments
--  Estimation du poids à partir de la densité
+-  Estimation du poids à partir de la densité 
 -  Association avec la base **Ciqual** (ANSES) enrichie
 
 > 🧪 Une **amélioration expérimentale** via le modèle **CLIP** est en cours de test dans le notebook `model_clip.ipynb` (non encore intégrée à l'API en ligne).
