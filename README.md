@@ -3,7 +3,7 @@
 [![Streamlit App](https://img.shields.io/badge/Demo-Streamlit-green?logo=streamlit)](https://huggingface.co/spaces/Fanchon/stream_app)
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://www.python.org/)
 
-> **Glucy-pred** est une application d’estimation nutritionnelle qui évalue automatiquement les **glucides** dans une assiette à partir d’une simple photo, grâce à la vision par ordinateur et à une base de données nutritionnelle.
+> **Glucy-pred** est une application d’estimation nutritionnelle qui évalue automatiquement les **glucides** dans une assiette à partir d’une simple photo, grâce à la detection et segmentation d'aliment present dans une image et à une base de données nutritionnelle.
 
 ## Démo en ligne
 
