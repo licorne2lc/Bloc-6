@@ -3,20 +3,16 @@
 [![Streamlit App](https://img.shields.io/badge/Demo-Streamlit-green?logo=streamlit)](https://huggingface.co/spaces/Fanchon/stream_app)
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://www.python.org/)
 
-> **Glucy-pred** est une application d’estimation nutritionnelle qui évalue automatiquement les **glucides** dans une assiette à partir d’une simple photo, grâce à la detection et segmentation d'aliments presents dans une image et à une base de données nutritionnelle.
+> **Glucy-pred** est une application intelligente conçue pour estimer la quantité de glucides présente dans une assiette à partir d’une simple photo. Elle s’adresse principalement aux personnes diabétiques souhaitant mieux contrôler leur apport en glucides au quotidien.
 
+L’application s’appuie sur des techniques avancées de détection et de segmentation d’aliments à partir d’images, associées à une base de données nutritionnelle pour identifier les aliments et calculer leur apport glucidique.
+
+Un rapport de densité est utilisé pour estimer le poids des aliments, en croisant les surfaces segmentées avec la taille réelle de l’assiette détectée.
 ## Démo en ligne
 
 ➡️ Essayez l'application ici :  
 🔗 [https://huggingface.co/spaces/Fanchon/stream_app](https://huggingface.co/spaces/Fanchon/stream_app)
 
----
-Glucy-pred 
-Application intelligente pour prédire la quantité de glucides dans une assiette à partir d’une simple photo.
-Elle s’adresse aux personnes diabétiques souhaitant mieux estimer leurs apports en glucides.
-
-IMPORTANT :   les models de segmentation sont stockés sur un bucket S3.
-            executer le script une fois avoir cloner le repository
 
 # Contenu du projet
 1. Interface utilisateur en ligne
