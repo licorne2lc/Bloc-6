@@ -3,7 +3,9 @@
 [![Streamlit App](https://img.shields.io/badge/Demo-Streamlit-green?logo=streamlit)](https://huggingface.co/spaces/Fanchon/stream_app)
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://www.python.org/)
 
-> **Glucy-pred** est une application intelligente conçue pour estimer la quantité de glucides présente dans une assiette à partir d’une simple photo. Elle s’adresse principalement aux personnes diabétiques souhaitant mieux contrôler leur apport en glucides au quotidien.
+> **Glucy-pred** est une application intelligente conçue pour estimer la quantité de glucides présente dans une assiette à partir d’une simple photo.
+>
+> Elle s’adresse principalement aux personnes diabétiques désireuses de mieux maîtriser leur apport en glucides au quotidien, et permet d’ajuster plus facilement la dose d’insuline à injecter.
 
 >L’application s’appuie sur des techniques avancées de détection et de segmentation d’aliments à partir d’images, associées à une base de données nutritionnelle pour identifier les aliments et calculer leur apport glucidique.
 
