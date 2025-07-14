@@ -33,11 +33,11 @@ Une interface conviviale est disponible via Streamlit sur Hugging Face :
 
 3-Calcul des glucides estimés, aliment par aliment, ainsi que du total glucidique de l’assiette.
 
-2. Amélioration de la détection avec le modèle CLIP
+4- Amélioration de la détection avec le modèle CLIP
 Pour améliorer l'identification des aliments, nous avons intégré le modèle CLIP (Contrastive Language-Image Pretraining) de Google.
 Cela permet une reconnaissance plus fine des aliments lorsque la confiance du modèle YOLO est faible.
 
-3. EDA et préprocessing du dataset FoodSeg103
+5- EDA et préprocessing du dataset FoodSeg103
 Analyse exploratoire des données du dataset FoodSeg103 (103 classes d’aliments segmentés).
 
    Prétraitement des masques et annotations pour entraîner un modèle YOLOv8.
