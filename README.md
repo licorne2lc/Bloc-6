@@ -7,10 +7,11 @@
 >
 > Elle s’adresse principalement aux personnes diabétiques désireuses de mieux maîtriser leur apport en glucides au quotidien, et permet d’ajuster plus facilement la dose d’insuline à injecter.
 
->L’application s’appuie sur des techniques avancées de détection et de segmentation d’aliments à partir d’images, associées à une base de données nutritionnelle pour identifier les aliments et calculer leur apport glucidique.
+>L’application repose sur un pipeline de traitement d’image intégrant des techniques de détection et de segmentation des aliments.
+>À partir d’une photo contenant une assiette, les aliments sont identifiés visuellement, leur forme est délimitée précisément.
+>Ces informations sont ensuite croisées avec une base de données nutritionnelle pour estimer leur poids et calculer les glucides correspondants.
 
->Un rapport de densité est utilisé pour estimer le poids des aliments, en croisant les surfaces segmentées avec la taille réelle de l’assiette détectée.
->
+
 ## Démo en ligne
 
 ➡️ Essayez l'application ici :  
