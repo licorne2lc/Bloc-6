@@ -5,9 +5,10 @@
 
 > **Glucy-pred** est une application intelligente conçue pour estimer la quantité de glucides présente dans une assiette à partir d’une simple photo. Elle s’adresse principalement aux personnes diabétiques souhaitant mieux contrôler leur apport en glucides au quotidien.
 
-L’application s’appuie sur des techniques avancées de détection et de segmentation d’aliments à partir d’images, associées à une base de données nutritionnelle pour identifier les aliments et calculer leur apport glucidique.
+>L’application s’appuie sur des techniques avancées de détection et de segmentation d’aliments à partir d’images, associées à une base de données nutritionnelle pour identifier les aliments et calculer leur apport glucidique.
 
-Un rapport de densité est utilisé pour estimer le poids des aliments, en croisant les surfaces segmentées avec la taille réelle de l’assiette détectée.
+>Un rapport de densité est utilisé pour estimer le poids des aliments, en croisant les surfaces segmentées avec la taille réelle de l’assiette détectée.
+>
 ## Démo en ligne
 
 ➡️ Essayez l'application ici :  
